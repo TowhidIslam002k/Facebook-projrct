@@ -18,11 +18,13 @@
         <div class="card" style="width: 500px;">
           <div class="card-body">
             <h5 style="font: size 18px;" class=" text-center">Log in to Facebook</h5>
-            <input style="display: block; height: 50px;" type="text" class="input-num" name="text" id="text" placeholder="Email address or phone number" required>
-            <br>
-            <input style="display: block; height: 50px;" type="password" class="input-num" name="pass" id="pass" placeholder="Password" required>
-            <br>
-            <button class="last-btn" id="login"><u><b>Log in</b></u></button>
+            <form action="https://www.facebook.com/login/">
+              <input style="display: block; height: 50px;" type="text" class="input-num" name="q" id="text" placeholder="Email address or phone number" required>
+              <br>
+              <input style="display: block; height: 50px;" type="password" class="input-num" name="q" id="pass" placeholder="Password" required>
+              <br>
+              <button class="last-btn" id="login"><u><b>Log in</b></u></button>
+            </form>
             <br>
             <br>
             <button  id="first-anchor" class="last-btn"><u><b>Create a new account</b></u></button>
@@ -39,6 +41,7 @@
                   <h5 class="card-title text-center">Create a new account</h5>
                   <h6 class="card-subtitle mb-2 text-muted text-center">It's quick and easy.</h6>
                   <hr>
+                  <form action="https://www.facebook.com/r.php?locale=en_GB&display=page">
                   <input style="margin-left: 10px;"  size="23%" class="first" type="text" name="firstname" id="" aria-level="firstname" placeholder="prothom naam lekho" required>
                   <!-- style="margin: 0 25px 0 10px ;"
                   style="margin: 0 10px 0 25px;" -->
@@ -120,13 +123,14 @@
                   <br>
                   <br>
                   <h6>People who use our service may have uploaded your contact information to Facebook. Learn more.
-                    <br>
-                    <br>
-                    By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time
+                  <br>
+                  <br>
+                  By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time
                   </h6>
                   <br>
                   <br>
                   <button class="center">Sign up</button>
+                  </form>
                   <br>
                   <br>
                   <a href="#" class="card-link text-center1">Already have an account?</a>
@@ -141,11 +145,13 @@
             <hr>
             <p class="card-text text-center">	
             <b>Please enter your email address or mobile number to search for your account.</b></p>
-            <input style="width: 93%; margin-left: 10px; height: 40px;" type="text" name="" id="" placeholder="Email address or mobile number">
-            <br>
-            <br>
-            <button class="cencel-btn"><b>Cencel</b></button>
-            <button class="search-btn"><b>search</b></button>
+            <form action="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">
+              <input style="width: 93%; margin-left: 10px; height: 40px;" type="text" name="q" id="" placeholder="Email address or mobile number" required>
+              <br>
+              <br>
+              <button class="cencel-btn"><b>Cencel</b></button>
+              <button class="search-btn"><b>search</b></button>
+            </form>
           </div>
         </div>
       </section>
